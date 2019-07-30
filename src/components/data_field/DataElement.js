@@ -1,14 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const DataElement = ({ isDisable, content }) => (
-<input type="text" disabled={isDisable} value={content}>
+const DataElement = ({ isDisable, content, color }) => (
+    
+<p type="text" disabled={isDisable} value={content} style={{color:color}}>
   
-</input>
+</p>
 )
 
 DataElement.propTypes = {
-  disable: PropTypes.bool.isRequired,
-  content: PropTypes.string
+  disable: PropTypes.bool,
+  content: PropTypes.string,
+  color: PropTypes.string
 }
 export default DataElement

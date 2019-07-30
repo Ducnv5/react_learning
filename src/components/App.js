@@ -8,8 +8,9 @@ const App = () => (
   <div>
     <AddTodo />
     <VisibleTodoList />
-    <DataRow isDisabled={false} row={{field1: '123', field2: '5456', field3: 'sdfsdf'}}/>
     <Footer />
+    <DataRow/>
+    <DataRow isDisabled={false} row={{field1: '123', field2: '5456', field3: 'sdfsdf'}} color='aqua'/>
   </div>
 )
 

@@ -17,5 +17,5 @@ Todo.propTypes = {
   color_id: PropTypes.number.isRequired,
   text: PropTypes.string.isRequired
 }
-const COLORS = ['BLACK', 'AQUA', 'CORAL', 'BROWN'];
+export const COLORS = ['BLACK', 'AQUA', 'CORAL', 'BROWN'];
 export default Todo
